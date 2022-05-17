@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Invoice</title>
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+      <style type="text/css">
+         .card-header {
+         background-color: rgba(255,255,255,255);
+         border-bottom: none;
+         }
+         .border-bottom{
+         border-bottom: 2px solid #000 !important;
+         }
+         .table-responsive-sm {
+         border-bottom: 2px solid #000;
+         }
+         button {
+         border-radius: 20px;
+         padding: 2px 30px;
+         border: 2px solid #000;
+         }
+         .payment {
+         margin-top: 4%;
+         position: absolute;
+         }
+         .border{
+         border: 2px solid #000 !important;  
+         }
+         .border-left {
+         border-left: 2px solid #000 !important;
+         }
+         .border-right{
+         border-right: 2px solid #000 !important;
+         }
+         .border-top{
+         border-top: 2px solid #000 !important;
+         }
+         .col-sm-6.text-left.right {
+         padding-left: 20%;
+         }
+         .ita {
+         margin-left: 70%;
+         margin-top:-5%;
+         }
+         tr {
+  line-height: 0;
+}
+         .table-bordered{
+         border: 1px solid black;
+         }
+         .border.table-striped {
+         margin-top: -2%;
+         }
+         footer {
+         margin-top: 10%;
+         }
+         .foot h5 {
+         text-align: center;
+         border-top-style: dashed;
+         }
+         .foot h6 {
+         text-align: center;
+         }
+         .col-sm-8.up {
+         margin-top: -1%;
+         }
+         .space {
+         margin: 34% 0;
+         }
+         .text-center.deb {
+         margin-left: 46%;
+         margin-top: -3%;
+         }
+        .text-center.Crea {
+          margin-left: 70%;
+          margin-top: -41px;
+          }
+          .text-right.balance {
+  margin-top: -28px;
+}
+        .col-sm-12.equal {
+  display: flex;
+}
+.col-sm-3.border-top.text-center.mt-5.right.float-right {
+  margin-left: 12%;
+}
+.col-sm-3.border-top.text-center.mt-5.left {
+  margin-right: 10%;
+}
+.pl-2.spt {
+  margin-top: -8%;
+}
+.clo-bala {
+  margin-right: 24%;
+  text-align: right;
+  margin-top: -3%;
+}
+.udrl {
+  text-decoration: underline;
+  font-size: 15px;
+}
+.powe {
+  line-height: 1;
+}
+      </style>
+   </head>
+   <body>
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-12 padding">
+         <div class="card">
+            <div class="card-header text-center">
+               <h2>NEXUS CORPORATION</h2>
+               <div class="udrl"><b>Debtor/ Creditor Leadger</b></div>
+            </div>
+            <div class="card-body">
+               <div class="row  border-bottom">
+                  <div class="col-sm-6">
+                     <h6>Consignee : Md Saddam Hossain</h6>
+                  </div>
+                  <div class="col-sm-6 text-right">
+                     <h6>Period : 01 July, 2021 to 31 January 2022</h6>
+                  </div>
+                  <table class="table table-borderless" width="100%">
+                    <thead class="border text-center">
+                      <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Particulars</th>
+                        <th scope="col">Ref</th>
+                        <th scope="col">Voucher No</th>
+                        <th scope="col">Debit</th>
+                        <th scope="col">Credit</th>
+                        <th scope="col">Balance</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="text-center">
+                           01-06-21
+                        </td>
+                        <td>BALANCE B/D</td>
+                        <td></td>
+                        <td class="text-center"></td>
+                        <td class="text-right">75,000</td>
+                        <td class="text-right">-</td>
+                        <td class="text-right">75,000</td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">01-06-21</td>
+                        <td>SALES</td>
+                        <td></td>
+                        <td class="text-center">INV19000102</td>
+                        <td class="text-right">70,000</td>
+                        <td class="text-right">-</td>
+                        <td class="text-right">145,000</td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">01-06-21</td>
+                        <td>CASH RECEIVED</td>
+                        <td></td>
+                        <td class="text-center">MR190004002</td>
+                        <td class="text-right">-</td>
+                        <td class="text-right">120,000</td>
+                        <td class="text-right">25,000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+               </div>
+               <div>Print Date & Time : 01-Feb-2022 02:18 PM </div>
+               <div class="powe">Powered by : NEXUS CORPORATION • 01711-928044</div>
+               <p class="text-center deb">45,000</p>
+               <p class="text-center Crea">45,000</p>
+               <p class="text-right balance">45,000</p>
+               <p class="clo-bala">closing Balance:</p>
+            </div>
+         </div>
+      </div>
+      <script src="index.js"></script>
+   </body>
+</html>
+

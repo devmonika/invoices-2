@@ -1,0 +1,208 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Invoice</title>
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+      <style type="text/css">
+         .card-header {
+         background-color: rgba(255,255,255,255);
+         border-bottom: none;
+         }
+         .border-bottom{
+         border-bottom: 2px solid #000 !important;
+         }
+         .table-responsive-sm {
+         border-bottom: 2px solid #000;
+         }
+         button {
+         border-radius: 20px;
+         padding: 2px 30px;
+         border: 2px solid #000;
+         }
+         .payment {
+         margin-top: 4%;
+         position: absolute;
+         }
+         .border{
+         border: 2px solid #000 !important;  
+         }
+         .border-left {
+         border-left: 2px solid #000 !important;
+         }
+         .border-right{
+         border-right: 2px solid #000 !important;
+         }
+         .border-top{
+         border-top: 2px solid #000 !important;
+         }
+         .col-sm-6.text-left.right {
+         padding-left: 20%;
+         }
+         .ita {
+         margin-left: 70%;
+         margin-top:-5%;
+         }
+         tr {
+         line-height: 1;
+         padding-bottom: 0;
+         margin-bottom: 0;
+         }
+         .table-bordered{
+         border: 1px solid black;
+         }
+         .border.table-striped {
+         margin-top: -2%;
+         }
+         footer {
+         margin-top: 10%;
+         }
+         .foot h5 {
+         text-align: center;
+         border-top-style: dashed;
+         }
+         .foot h6 {
+         text-align: center;
+         }
+         .col-sm-8.up {
+         margin-top: -1%;
+         }
+         .space {
+         margin: 34% 0;
+         }
+         .text-center.deb {
+          margin-left: 78%;
+          margin-top: -3%;
+        }
+        .text-right.crea {
+          margin-top: -40px;
+        }
+        .col-sm-12.equal {
+  display: flex;
+}
+.col-sm-3.border-top.text-center.mt-5.right.float-right {
+  margin-left: 12%;
+}
+.col-sm-3.border-top.text-center.mt-5.left {
+  margin-right: 10%;
+}
+.pl-2.spt {
+  margin-top: -8%;
+}
+      </style>
+   </head>
+   <body>
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-12 padding">
+         <div class="card">
+            <div class="card-header text-center">
+               <h2><b>LAAM MEDICAL SERVICES</b></h2>
+               <div>Journal Voucher</div>
+            </div>
+            <div class="card-body">
+               <div class="row mb-2">
+                  <div class="col-sm-6">
+                     <h6>Consignee</h6>
+                     <h6>(Customer or Supplier Detail Here)</h6>
+                  </div>
+                  <div class="col-sm-6 text-left right">
+                     <h6>Voucher No : INC-2200125</h6>
+                     <h6>Date : 06-Feb-22</h6>
+                     <h6>Entry Type : Income</h6>
+                     <h6>Enter By : Goutam</h6>
+                  </div>
+               </div>
+               <div class="table-responsive-sm">
+                  <table width="100%" class="">
+                     <thead class="border">
+                        <tr class="border-left">
+                           <th class="text-center border-right">Particulars</th>
+                           <th  class="text-center border-right">Notes/ Refference</th>
+                           <th class="text-center border-right">Debit</th>
+                           <th class="text-center border-right">Credit</th>
+                        </tr>
+                     </thead>
+                     <tbody class="border-bottom">
+                        <tr class="border-left">
+                           <td class="text-left border-right">General Income (Received From Old Furniture Sales)</td>
+                           <td class="text-center strong border-right">
+                             
+                           </td>
+                           <td class="text-center border-right"> </td>
+                           <td class="text-center border-right"></td>
+                        </tr>
+                        <tr class="border-left">
+                           <td class="text-left border-right">Debit - Cash Drawer</td>
+                           <td class="text-center strong border-right">
+                              CD-0012
+                           </td>
+                           <td class="text-center border-right">45,000 </td>
+                           <td class="text-center border-right"></td>
+                        </tr>
+                        <tr class="border-left">
+                           <td class="text-left border-right">Credit - Chair</td>
+                           <td class="text-center strong border-right">
+                              ADCH-0125 
+                           </td>
+                           <td class="text-center border-right"> </td>
+                           <td class="text-center border-right">7,800</td>
+                        </tr>
+                        <tr class="border-left">
+                           <td class="text-left border-right">Credit - Almirah</td>
+                           <td class="text-center strong border-right">ALM-56</td>
+                           <td class="text-center border-right"> </td>
+                           <td class="text-center border-right">7,800</td>
+                        </tr>
+                        <tr class="border-left">
+                           <td class="text-left border-right">Credit - File Cabinet</td>
+                           <td class="text-center strong border-right">AFC-456 </td>
+                           <td class="text-center border-right"> </td>
+                           <td class="text-center border-right">7,800</td>
+                        </tr>
+                        <tr class="border-left">
+                           <td class="text-left border-right">Narration : Old furniture sold to local supplier against Admin</td>
+                           <td class="text-center strong border-right"></td>
+                           <td class="text-center border-right"> </td>
+                           <td class="text-center border-right"></td>
+                        </tr>
+                        <tr class="border-left">
+                           <td class="text-left border-right">Order No. 12345</td>
+                           <td class="text-center strong border-right"></td>
+                           <td class="text-center border-right"> </td>
+                           <td class="text-center border-right"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+               </div>
+               <p>Print Date & Time : 01-Feb-2022 02:18 PM</p>
+                  <p class="text-center deb">45,000</p>
+                  <p class="text-right crea">45,000</p>
+                  <div class="col-sm-12 equal">
+                    
+                   <div class="col-sm-3 border-top text-center mt-5 left">
+                    <p>Prepare By</p>
+                    
+                  </div>
+                    <div></div>
+                   <div class="col-sm-3 border-top text-center mt-5 middle">
+                    <p>Checked By</p>
+                    
+                  </div>
+                  <div class="col-sm-3 border-top text-center mt-5 right float-right">
+                    <p>Authorized By</p>
+                    
+                  </div>
+                  </div>
+            </div>
+         </div>
+      </div>
+      <script src="index.js"></script>
+   </body>
+</html>
+
